@@ -54,6 +54,10 @@ h5 {
     font-family: "Roboto", sans-serif;
 }
 
+a:focus {
+    color: white !important;
+}
+
 .bg-container {
     z-index: -1;
     position: relative;
