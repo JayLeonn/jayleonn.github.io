@@ -125,13 +125,13 @@ a:hover {
 }
 
 .profile-box {
-    width: 25vw;
+    width: 30vw;
     height: 50vh;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 40px;
     color: white;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 20vh;
     text-align: center;
 }
 
@@ -152,7 +152,7 @@ i {
 }
 
 .icons {
-    font-size: 40px;
+    font-size: 5vh;
 }
 
 .icons a {
@@ -161,6 +161,28 @@ i {
 
 .quote {
     font-family: "Roboto-Italic" !important;
+    font-size: 1.75vh;
+}
+
+.name {
+    font-size: 4vh;
+}
+
+.subtitle {
+    font-size: 2vh;
+}
+
+@media screen and (max-device-height: 900px) {
+    .profile-box {
+        width: 45vw;
+        height: 60vh !important;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 40px;
+        color: white;
+        margin: 0 auto;
+        margin-top: 20vh;
+        text-align: center;
+    }
 }
 
 @media screen and (max-device-width: 750px) {
