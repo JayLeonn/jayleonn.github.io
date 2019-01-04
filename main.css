@@ -175,7 +175,7 @@ i {
 @media screen and (max-device-height: 900px) {
     .profile-box {
         width: 45vw;
-        height: 65vh !important;
+        height: 65vh;
         background-color: rgba(0, 0, 0, 0.8);
         padding: 40px;
         color: white;
@@ -201,7 +201,7 @@ i {
     .profile-box {
         margin-top: 0;
         width: 100vw;
-        height: 100vh;
+        height: 100vh !important;
         padding: 0;
     }
     .icons>.icon {
