@@ -58,6 +58,10 @@ a:focus {
     color: white !important;
 }
 
+a:hover {
+    color: white !important;
+}
+
 .bg-container {
     z-index: -1;
     position: relative;
