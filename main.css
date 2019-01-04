@@ -126,7 +126,7 @@ a:hover {
 
 .profile-box {
     width: 30vw;
-    height: 50vh;
+    height: 55vh;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 40px;
     color: white;
@@ -175,7 +175,7 @@ i {
 @media screen and (max-device-height: 900px) {
     .profile-box {
         width: 45vw;
-        height: 60vh !important;
+        height: 65vh !important;
         background-color: rgba(0, 0, 0, 0.8);
         padding: 40px;
         color: white;
