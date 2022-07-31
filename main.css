@@ -143,7 +143,7 @@ a:hover {
 
 .line {
     margin: 15px auto 15px auto;
-    width: 300px;
+    width: auto;
     border-top: 1px solid white;
 }
 
@@ -198,42 +198,51 @@ i {
         background-repeat: no-repeat !important;
         background-attachment: scroll !important;
     }
+
     .profile-box {
         margin-top: 0;
         width: 100vw;
         height: 100vh !important;
         padding: 0;
     }
+
     .icons>.icon {
         width: 100vw;
         display: inline-block;
         width: 22%;
         text-align: center;
     }
+
     .fa {
         font-size: 150px !important;
     }
+
     .icons {
         width: 100vw;
         position: absolute;
         bottom: 50px;
     }
+
     .profile-pic {
         margin-top: 10vh;
         margin-bottom: 10vh;
         height: 35vh;
         width: 35vh;
     }
+
     .name {
         font-size: 5vh;
     }
+
     .subtitle {
         font-size: 2vh;
     }
+
     .quote {
         font-size: 2vh;
         font-family: "Roboto-Italic" !important;
     }
+
     .line {
         border-top: 3px solid white;
         width: calc(100vw - 200px);
