@@ -1,251 +1,199 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("fonts/Roboto-Light.ttf");
+  font-family: "GratoGrotesk";
+  src: url("fonts/GratoGrotesk-Regular.woff2");
 }
 
 @font-face {
-    font-family: "Roboto-Italic";
-    src: url("fonts/Roboto-LightItalic.ttf");
+  font-family: "GratoGrotesk-Black";
+  src: url("fonts/GratoGrotesk-Black.woff2");
 }
 
-.w-widget-gplus {
-    overflow: hidden;
+@font-face {
+  font-family: "GratoGrotesk-Bold";
+  src: url("fonts/GratoGrotesk-Bold.woff2");
 }
 
-.w-background-video {
-    position: relative;
-    overflow: hidden;
-    height: 500px;
-    color: white;
+@font-face {
+  font-family: "GratoGrotesk-Hair";
+  src: url("fonts/GratoGrotesk-Hair.woff2");
 }
 
-.w-background-video>video {
-    background-size: cover;
-    background-position: 50% 50%;
-    position: absolute;
-    right: -100%;
-    bottom: -100%;
-    top: -100%;
-    left: -100%;
-    margin: auto;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -100;
+@font-face {
+  font-family: "GratoGrotesk-Light";
+  src: url("fonts/GratoGrotesk-Light.woff2");
 }
 
-.full-height-container {
-    height: 100%;
+@font-face {
+  font-family: "GratoGrotesk-Thin";
+  src: url("fonts/GratoGrotesk-Thin.woff2");
 }
 
 .body {
-    font-family: "Roboto", sans-serif;
-    display: block;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
+  font-family: "GratoGrotesk", sans-serif;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
 }
 
-p,
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-family: "Roboto", sans-serif;
+  font-family: "GratoGrotesk-Bold", sans-serif;
+  margin: 0;
 }
 
-a:focus {
-    color: white !important;
-}
-
-a:hover {
-    color: white !important;
+p {
+  margin: 0;
 }
 
 .bg-container {
-    z-index: -1;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57754cd33654d2b7708ae059/57754d40a8dfa30f2164b94a_ZucueBGBlur.jpg");
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://daks2k3a4ib2z.cloudfront.net/57754cd33654d2b7708ae059/57754d40a8dfa30f2164b94a_ZucueBGBlur.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-container.video {
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-image: none;
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: none;
 }
 
 .clear-image {
-    z-index: -1;
-    display: none;
-}
-
-.clear-image.video {
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    display: block;
-    height: 100%;
-}
-
-.video-container {
-    display: none;
-    height: 100%;
-}
-
-.video-container.blur {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
-}
-
-.video-container.blur-video {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-}
-
-.slide1 {
-    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57754cd33654d2b7708ae059/57754d75251486d4703c42a9_ZucueBG.jpeg");
-    background-position: 0px 0px;
-    background-size: 1000px;
+  z-index: -1;
+  display: none;
 }
 
 .profile-box {
-    width: 30vw;
-    height: 55vh;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+  height: 55vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+  align-self: center;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid white;
+}
+
+.icons {
+  font-size: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons a {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container a p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.quote {
+  font-family: "GratoGrotesk";
+}
+
+.subtitle {
+  font-family: "GratoGrotesk-Thin";
+  font-weight: unset;
+}
+
+@media screen and (max-device-height: 900px) {
+  .profile-box {
+    width: 45vw;
+    height: 65vh;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 40px;
     color: white;
     margin: 0 auto;
     margin-top: 20vh;
     text-align: center;
-}
-
-.profile-pic {
-    border-radius: 50%;
-    height: 20vh;
-    width: 20vh;
-}
-
-.line {
-    margin: 15px auto 15px auto;
-    width: auto;
-    border-top: 1px solid white;
-}
-
-i {
-    margin: 15px;
-}
-
-.icons {
-    font-size: 5vh;
-}
-
-.icons a {
-    color: white;
-}
-
-.quote {
-    font-family: "Roboto-Italic" !important;
-    font-size: 1.75vh;
-}
-
-.name {
-    font-size: 4vh;
-}
-
-.subtitle {
-    font-size: 2vh;
-}
-
-@media screen and (max-device-height: 900px) {
-    .profile-box {
-        width: 45vw;
-        height: 65vh;
-        background-color: rgba(0, 0, 0, 0.8);
-        padding: 40px;
-        color: white;
-        margin: 0 auto;
-        margin-top: 20vh;
-        text-align: center;
-    }
+  }
 }
 
 @media screen and (max-device-width: 750px) {
-    #background_wrap {
-        z-index: -1 !important;
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        height: 100% !important;
-        width: 100% !important;
-        background-size: cover !important;
-        background-color: white !important;
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important;
-    }
 
-    .profile-box {
-        margin-top: 0;
-        width: 100vw;
-        height: 100vh !important;
-        padding: 0;
-    }
+  .profile-box {
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    border-radius: 0;
+    justify-content: unset;
+    background-color: #1c1917;
+  }
 
-    .icons>.icon {
-        width: 100vw;
-        display: inline-block;
-        width: 22%;
-        text-align: center;
-    }
+  .profile-pic {
+    margin: 10vh;
+    height: 30vh;
+    width: 30vh;
+  }
 
-    .fa {
-        font-size: 150px !important;
-    }
+  .name {
+    font-size: 5vh;
+    margin: 0 2vw;
+  }
 
-    .icons {
-        width: 100vw;
-        position: absolute;
-        bottom: 50px;
-    }
+  .subtitle {
+    font-size: 2.5vh;
+    margin: 0 2vw;
+  }
 
-    .profile-pic {
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-        height: 35vh;
-        width: 35vh;
-    }
+  .quote {
+    margin: auto 4vw 2vh 4vw;
+    font-size: 2vh;
+  }
 
-    .name {
-        font-size: 5vh;
-    }
+  .icons {
+    margin: 0 4vw 65px 4vw;
+  }
 
-    .subtitle {
-        font-size: 2vh;
-    }
+  .icon-container a p {
+    font-size: 2vh;
+  }
 
-    .quote {
-        font-size: 2vh;
-        font-family: "Roboto-Italic" !important;
-    }
-
-    .line {
-        border-top: 3px solid white;
-        width: calc(100vw - 200px);
-        margin: 50px 100px;
-    }
+  .line {
+    border: none;
+  }
 }
