@@ -147,6 +147,10 @@ p {
     display: none;
   }
 
+  .body {
+    overflow: auto;
+  }
+
   .profile-box {
     margin-top: 0;
     width: 100%;
