@@ -55,7 +55,7 @@ p {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url("https://daks2k3a4ib2z.cloudfront.net/57754cd33654d2b7708ae059/57754d40a8dfa30f2164b94a_ZucueBGBlur.jpg");
+  background-image: url("/Images/Background.png");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,7 +72,6 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30vw;
   height: 55vh;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 50px;
