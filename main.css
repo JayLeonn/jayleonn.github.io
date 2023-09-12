@@ -55,7 +55,7 @@ p {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url("/Images/Background.png");
+  background-image: url("/Images/blurBg.webp");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,6 +80,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  min-width: 450px;
 }
 
 .profile-pic {
